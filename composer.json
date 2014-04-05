@@ -1,0 +1,25 @@
+{
+    "name": "ppi/composer-module",
+    "description": "Monolog module for PPI2",
+    "keywords": ["ppi", "package", "dependency", "autoload"],
+    "homepage": "https://github.com/ppi/ppi-composer-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vítor Brandão",
+            "email": "vitor@ppi.io"
+        }
+    ],
+    "support": {
+        "irc": "irc://irc.freenode.org/ppi",
+        "issues": "https://github.com/ppi/ppi-composer-module/issues"
+    },
+    "require": {
+        "ppi/framework": "dev-develop"
+    },
+    "autoload": {
+        "psr-0": { "PPI\\MonologModule": "" }
+    },
+    "target-dir": "PPI/MonologModule",
+    "minimum-stability": "dev"
+}
