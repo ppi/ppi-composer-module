@@ -1,6 +1,6 @@
 {
     "name": "ppi/composer-module",
-    "description": "Monolog module for PPI2",
+    "description": "Composer module for PPI2",
     "keywords": ["ppi", "package", "dependency", "autoload"],
     "homepage": "https://github.com/ppi/ppi-composer-module",
     "license": "MIT",
