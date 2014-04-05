@@ -19,8 +19,8 @@
         "ppi/framework": "dev-develop"
     },
     "autoload": {
-        "psr-0": { "PPI\\MonologModule": "" }
+        "psr-0": { "PPI\\ComposerModule": "" }
     },
-    "target-dir": "PPI/MonologModule",
+    "target-dir": "PPI/ComposerModule",
     "minimum-stability": "dev"
 }
