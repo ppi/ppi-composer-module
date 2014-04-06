@@ -36,14 +36,14 @@ class Module extends AbstractModule
      */
     public function getName()
     {
-        return 'PPIComposerModule';
+        return 'ComposerModule';
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getConfig()
     {
-        return array();
+        return array('composer' => array());
     }
 }
