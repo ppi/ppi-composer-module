@@ -8,6 +8,10 @@
         {
             "name": "Vítor Brandão",
             "email": "vitor@ppi.io"
+        },
+        {
+            "name": "Paul Dragoonis",
+            "email": "paul@ppi.io"
         }
     ],
     "support": {
@@ -18,8 +22,7 @@
         "composer/composer": "1.0.*@dev"
     },
     "autoload": {
-        "psr-0": { "PPI\\ComposerModule": "" }
+        "psr-4": { "PPI\\ComposerModule\\": "src/" }
     },
-    "target-dir": "PPI/ComposerModule",
     "minimum-stability": "dev"
 }
