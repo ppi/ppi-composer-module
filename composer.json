@@ -16,7 +16,7 @@
     },
     "require": {
         "composer/composer": "1.0.*@dev",
-        "ppi/framework": "dev-develop"
+        "ppi/framework": "dev-master"
     },
     "autoload": {
         "psr-0": { "PPI\\ComposerModule": "" }
