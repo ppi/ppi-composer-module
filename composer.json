@@ -19,6 +19,7 @@
         "issues": "https://github.com/ppi/ppi-composer-module/issues"
     },
     "require": {
+        "ppi/framework": "dev-develop",
         "composer/composer": "1.0.*@dev"
     },
     "autoload": {
