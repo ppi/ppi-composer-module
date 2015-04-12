@@ -4,15 +4,15 @@
  *
  * @category    PPI
  * @package     ComposerModule
- * @copyright   Copyright (c) 2011-2014 Paul Dragoonis <paul@ppi.io>
+ * @copyright   Copyright (c) 2011-2015 Paul Dragoonis <paul@ppi.io>
  * @license     http://opensource.org/licenses/mit-license.php MIT
  * @link        http://www.ppi.io
  */
 
 namespace PPI\ComposerModule;
 
-use PPI\Autoload;
-use PPI\Module\AbstractModule;
+use PPI\Framework\Autoload;
+use PPI\Framework\Module\AbstractModule;
 
 /**
  * PPI Composer Module.
