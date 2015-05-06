@@ -19,11 +19,11 @@
         "issues": "https://github.com/ppi/ppi-composer-module/issues"
     },
     "require": {
-        "ppi/framework": "dev-develop",
+        "ppi/framework": "dev-master",
         "composer/composer": "1.0.*@dev"
     },
     "autoload": {
-        "psr-4": { "PPI\\ComposerModule\\": "src/" }
+        "psr-4": { "PPI\\Framework\\ComposerModule\\": "src/" }
     },
     "minimum-stability": "dev"
 }
