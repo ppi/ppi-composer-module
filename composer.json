@@ -19,8 +19,8 @@
         "issues": "https://github.com/ppi/ppi-composer-module/issues"
     },
     "require": {
-        "ppi/framework": "dev-master",
-        "composer/composer": "1.0.*@dev"
+        "composer/composer": "1.0.*@dev",
+        "ppi/framework": "~2.1.0-alpha2"
     },
     "autoload": {
         "psr-4": { "PPI\\ComposerModule\\": "src/" }
